@@ -1,4 +1,113 @@
-## Hi there 👋
+# 👋 Hola, soy Roberto Escobar
+
+Analista Programador / Ingeniero en Informática  
+Creative producer & songwriter | App developer | Cloud engineer
+
+---
+
+## 🚀 Proyectos 
+
+- [antudrive-lite](https://github.com/robrstein/antudrive-lite)  
+  App de conducción inteligente.  
+  **Lenguajes:** Dart, Kotlin, Swift, Objective-C, CMake, C++, C, HTML
+
+- [Quantum-Computing](https://github.com/robrstein/Quantum-Computing)  
+  Documentos y archivos del grupo de investigación QM.  
+  **Lenguajes:** Jupyter Notebook
+
+
+## 🚀 Creacion de Teclados
+
+- [vial-qmk](https://github.com/robrstein/vial-qmk)  
+  Fork de QMK con características específicas de Vial.  
+  **Lenguajes:** C, C++, Python, Go, Assembly, Shell, Makefile, AutoHotkey, SourcePawn, Nix, Dockerfile, Roff
+
+- [qmk_firmware](https://github.com/robrstein/qmk_firmware)  
+  Firmware open-source para teclados AVR y ARM USB.  
+  **Lenguajes:** C, C++, Python, Assembly, Shell, Makefile, Go, AutoHotkey, SourcePawn, Nix, Dockerfile, Roff
+
+- [crkbd](https://github.com/robrstein/crkbd)  
+  Teclado dividido Corne.  
+  **Lenguajes:** Makefile
+
+- [Lily58](https://github.com/robrstein/Lily58)  
+  Teclado dividido 6×4+4 teclas.  
+  **Lenguajes:** —
+
+- [zmk](https://github.com/robrstein/zmk)  
+  Repositorio de firmware ZMK.  
+  **Lenguajes:** C, Python, Shell, CMake, JavaScript, Dockerfile
+
+- [zmk-studio](https://github.com/robrstein/zmk-studio)  
+  Herramientas para ZMK Studio.  
+  **Lenguajes:** TypeScript, Rust, JavaScript, CSS, HTML, Dockerfile
+
+- [zmk-corne-test3](https://github.com/robrstein/zmk-corne-test3)  
+  Test de firmware ZMK para teclado Corne.  
+  **Lenguajes:** —
+
+
+## 🚀 Impresion 3D
+
+- [Marlin](https://github.com/robrstein/Marlin)  
+  Firmware optimizado para impresoras 3D RepRap.  
+  **Lenguajes:** C++, C, Python, Shell, Makefile, HTML, CSS, JavaScript, Assembly, OpenSCAD, G-code
+
+- [SuperSlicer](https://github.com/robrstein/SuperSlicer)  
+  Generador de G-code para impresoras 3D.  
+  **Lenguajes:** C++, C, Perl, Python, JavaScript, HTML, CSS, Shell, Makefile, GLSL, Objective-C, Roff, Lex, Yacc, M4, XSLT
+
+
+## 🚀 Otros
+
+- [jquery-table2excel](https://github.com/robrstein/jquery-table2excel)  
+  Plugin jQuery para exportar tablas HTML a Excel.  
+  **Lenguajes:** JavaScript
+
+- [Qprog_T6](https://github.com/robrstein/Qprog_T6)  
+  Proyecto de programación T6.  
+  **Lenguajes:** Java
+
+- [LibreELEC.tv](https://github.com/robrstein/LibreELEC.tv)  
+  Sistema operativo minimalista para KODI.  
+  **Lenguajes:** Shell, Python, C, CSS, Makefile, HTML, CMake, Dockerfile
+
+- [transbank-sdk-python](https://github.com/robrstein/transbank-sdk-python)  
+  SDK oficial de Transbank para Python.  
+  **Lenguajes:** Python, Shell, Makefile, Dockerfile
+
+- [transbank-sdk-dotnet](https://github.com/robrstein/transbank-sdk-dotnet)  
+  SDK oficial de Transbank para .NET (C#).  
+  **Lenguajes:** C#, PowerShell
+
+
+---
+
+## 🔒 Proyectos Privados (solo descripción general)
+
+- **IonikSuite** → Suite de gestión (Python, TypeScript, HTML, CSS, JavaScript, PLSQL, Docker).  
+- **inversiones** → Plataforma de visualización de portafolios (Python, Dart, HTML, CSS, JS, Kotlin, Swift).   
+- **llappControl** → App de control de luces LED para autos (Python, Dart, C++, Swift, Kotlin).   
+- **importadora** → Sistema de costos y cálculo de importación (Python, TypeScript, HTML, CSS, JS).  
+- **gastos** → Gestión de gastos.  
+- **python-proyInv** → Proyecto de análisis de inversión (Python).  
+- **ffmm-tracker-android** → Tracker Android para fondos mutuos (TypeScript, Kotlin, JS).
+
+---
+
+## 🛠 Stack Tecnológico
+- **Lenguajes:** Python, C#, SQL/PLSQL, Dart, TypeScript, JavaScript, C/C++, Rust, Java, Kotlin, Swift  
+- **Frameworks:** FastAPI, .NET, ASP.NET, Flutter  
+- **Herramientas:** Git avanzado, Docker, Oracle, CI/CD, AVD Pixel 8a  
+- **Intereses:** App publishing, seguridad, optimización de emuladores, workflows Git
+
+---
+
+## 📫 Contacto
+- 📧 Email: roberto.escobar.wall@gmail.com  
+- 🔗 LinkedIn: [linkedin.com/in/robertoescobar](https://linkedin.com/in/robertoescobar)  
+- 📱 Teléfono: +56 9 9862 8688
+
 
 <!--
 **robrstein/robrstein** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
