@@ -13,6 +13,47 @@ Creative producer & songwriter | App developer | Cloud engineer
 
   [![Disponible en Google Play](https://img.shields.io/badge/Google%20Play-AntuDrive%20Lite-green)](https://play.google.com/store/apps/details?id=com.antutech.antudrive_lite&hl=es_CL)
 
+---
+
+## 🔒 Proyectos Privados
+
+- **IonikSuite** → Suite de gestión (Python, TypeScript, HTML, CSS, JavaScript, PLSQL, Docker).  
+- **inversiones** → Plataforma de visualización de portafolios (Python, Dart, HTML, CSS, JS, Kotlin, Swift).   
+- **llappControl** → **AntuDrive** - App de control de luces LED para autos (Python, Dart, C++, Swift, Kotlin).   
+- **importadora** → Sistema de costos y cálculo de importación (Python, TypeScript, HTML, CSS, JS).  
+- **gastos** → Gestión de gastos.  
+- **python-proyInv** → Proyecto de análisis de inversión (Python).  
+- **ffmm-tracker-android** → Tracker Android para fondos mutuos (TypeScript, Kotlin, JS).
+
+---
+
+
+## ☁️ Cloud & Infraestructura
+
+- **Oracle Cloud**  
+  - Administración de **Autonomous Database** y **Virtual Machines** en Ubuntu.  
+  - Configuración de PL/SQL, seguridad y esquemas estructurados.  
+  - CI/CD y despliegues backend en Python.  
+
+- **Cloudflare**  
+  - Gestión de DNS, seguridad y optimización de tráfico.  
+  - Integración con dominios y servicios en producción.  
+
+- **ionik.cl**  
+  - **Ecommerce multitenant**.  
+  - Infraestructura: Nic + VM Ubuntu + BD Oracle + Cloudflare.  
+  - Subdominio: para administración de importaciones.  
+
+- **pillanTrack**  
+  - Proyecto en desarrollo con backend en Python.  
+  - Infraestructura: VM Ubuntu + DuckDNS.  
+  - Versión móvil en desarrollo (APK).  
+  - Tecnologías (Python, FastAPI, Oracle, Flutter).  
+
+---
+
+<details>
+  <summary>🚀 Creación de Teclados (repositorios fork)</summary>
 
 ## 🚀 Creacion de Teclados
 
@@ -44,6 +85,11 @@ Creative producer & songwriter | App developer | Cloud engineer
   Test de firmware ZMK para teclado Corne.  
   **Lenguajes:** —
 
+</details>
+
+<details>
+  <summary>🚀 Impresión 3D (repositorios fork)</summary>
+
 ## 🚀 Impresion 3D
 
 - [Marlin](https://github.com/robrstein/Marlin)  
@@ -54,6 +100,10 @@ Creative producer & songwriter | App developer | Cloud engineer
   Generador de G-code para impresoras 3D.  
   **Lenguajes:** C++, C, Perl, Python, JavaScript, HTML, CSS, Shell, Makefile, GLSL, Objective-C, Roff, Lex, Yacc, M4, XSLT
 
+</details>
+
+<details>
+  <summary>🚀 Otros (repositorios fork)</summary>
 
 ## 🚀 Otros
 
@@ -81,18 +131,16 @@ Creative producer & songwriter | App developer | Cloud engineer
   Documentos y archivos del grupo de investigación QM.  
   **Lenguajes:** Jupyter Notebook
 
+</details>
 
 ---
 
-## 🔒 Proyectos Privados
 
-- **IonikSuite** → Suite de gestión (Python, TypeScript, HTML, CSS, JavaScript, PLSQL, Docker).  
-- **inversiones** → Plataforma de visualización de portafolios (Python, Dart, HTML, CSS, JS, Kotlin, Swift).   
-- **llappControl** → **AntuDrive** - App de control de luces LED para autos (Python, Dart, C++, Swift, Kotlin).   
-- **importadora** → Sistema de costos y cálculo de importación (Python, TypeScript, HTML, CSS, JS).  
-- **gastos** → Gestión de gastos.  
-- **python-proyInv** → Proyecto de análisis de inversión (Python).  
-- **ffmm-tracker-android** → Tracker Android para fondos mutuos (TypeScript, Kotlin, JS).
+
+
+
+
+
 
 ---
 
@@ -108,11 +156,13 @@ Creative producer & songwriter | App developer | Cloud engineer
 - 📧 Email: roberto.escobar.wall@gmail.com  
 - 🔗 LinkedIn: [linkedin.com/in/robertoescobar](https://linkedin.com/in/robertoescobar)  
 - 📱 Teléfono: +56 9 9862 8688
-
+ 
 ---
-## 🎵 Spotify
-[Visitar perfil en Spotify](https://open.spotify.com/intl-es/artist/6pxXYSk1spPf6xt1tjU7gX/discography/all)
-
+---
+ 
+## 🎵 Música & Videos
+- [Perfil en Spotify](https://open.spotify.com/intl-es/artist/6pxXYSk1spPf6xt1tjU7gX/discography/all)  
+- [Canal en YouTube](https://www.youtube.com/@robrstein.oficial)
 
 <!--
 **robrstein/robrstein** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -128,3 +178,61 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+
+
+
+
+
+## 🔒 Proyectos Privados
+
+- **IonikSuite** → Suite de gestión (Python, TypeScript, HTML, CSS, JavaScript, PLSQL, Docker).  
+- **inversiones** → Plataforma de visualización de portafolios (Python, Dart, HTML, CSS, JS, Kotlin, Swift).   
+- **llappControl** → **AntuDrive** - App de control de luces LED para autos (Python, Dart, C++, Swift, Kotlin).   
+- **importadora** → Sistema de costos y cálculo de importación (Python, TypeScript, HTML, CSS, JS).  
+- **gastos** → Gestión de gastos.  
+- **python-proyInv** → Proyecto de análisis de inversión (Python).  
+- **ffmm-tracker-android** → Tracker Android para fondos mutuos (TypeScript, Kotlin, JS).
+
+---
+
+
+<details>
+  <summary>🚀 Creación de Teclados (repositorios fork)</summary>
+
+- [vial-qmk](https://github.com/robrstein/vial-qmk)  
+- [qmk_firmware](https://github.com/robrstein/qmk_firmware)  
+- [crkbd](https://github.com/robrstein/crkbd)  
+- [Lily58](https://github.com/robrstein/Lily58)  
+- [zmk](https://github.com/robrstein/zmk)  
+- [zmk-studio](https://github.com/robrstein/zmk-studio)  
+- [zmk-corne-test3](https://github.com/robrstein/zmk-corne-test3)  
+
+</details>
+
+<details>
+  <summary>🚀 Impresión 3D (repositorios fork)</summary>
+
+- [Marlin](https://github.com/robrstein/Marlin)  
+- [SuperSlicer](https://github.com/robrstein/SuperSlicer)  
+
+</details>
+
+<details>
+  <summary>🚀 Otros (repositorios fork)</summary>
+
+- [jquery-table2excel](https://github.com/robrstein/jquery-table2excel)  
+- [Qprog_T6](https://github.com/robrstein/Qprog_T6)  
+- [LibreELEC.tv](https://github.com/robrstein/LibreELEC.tv)  
+- [transbank-sdk-python](https://github.com/robrstein/transbank-sdk-python)  
+- [transbank-sdk-dotnet](https://github.com/robrstein/transbank-sdk-dotnet)  
+- [Quantum-Computing](https://github.com/robrstein/Quantum-Computing)  
+
+</details>
+
+---
+
+
+---
+
