@@ -11,6 +11,8 @@ Creative producer & songwriter | App developer | Cloud engineer
   App de conducción inteligente.  
   **Lenguajes:** Dart, Kotlin, Swift, Objective-C, CMake, C++, C, HTML
 
+  [![Disponible en Google Play](https://img.shields.io/badge/Google%20Play-AntuDrive%20Lite-green)](https://play.google.com/store/apps/details?id=com.antutech.antudrive_lite&hl=es_CL)
+
 - [Quantum-Computing](https://github.com/robrstein/Quantum-Computing)  
   Documentos y archivos del grupo de investigación QM.  
   **Lenguajes:** Jupyter Notebook
@@ -83,11 +85,11 @@ Creative producer & songwriter | App developer | Cloud engineer
 
 ---
 
-## 🔒 Proyectos Privados (solo descripción general)
+## 🔒 Proyectos Privados
 
 - **IonikSuite** → Suite de gestión (Python, TypeScript, HTML, CSS, JavaScript, PLSQL, Docker).  
 - **inversiones** → Plataforma de visualización de portafolios (Python, Dart, HTML, CSS, JS, Kotlin, Swift).   
-- **llappControl** → App de control de luces LED para autos (Python, Dart, C++, Swift, Kotlin).   
+- **llappControl** → **AntuDrive** - App de control de luces LED para autos (Python, Dart, C++, Swift, Kotlin).   
 - **importadora** → Sistema de costos y cálculo de importación (Python, TypeScript, HTML, CSS, JS).  
 - **gastos** → Gestión de gastos.  
 - **python-proyInv** → Proyecto de análisis de inversión (Python).  
