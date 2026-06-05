@@ -13,10 +13,6 @@ Creative producer & songwriter | App developer | Cloud engineer
 
   [![Disponible en Google Play](https://img.shields.io/badge/Google%20Play-AntuDrive%20Lite-green)](https://play.google.com/store/apps/details?id=com.antutech.antudrive_lite&hl=es_CL)
 
-- [Quantum-Computing](https://github.com/robrstein/Quantum-Computing)  
-  Documentos y archivos del grupo de investigación QM.  
-  **Lenguajes:** Jupyter Notebook
-
 
 ## 🚀 Creacion de Teclados
 
@@ -47,7 +43,6 @@ Creative producer & songwriter | App developer | Cloud engineer
 - [zmk-corne-test3](https://github.com/robrstein/zmk-corne-test3)  
   Test de firmware ZMK para teclado Corne.  
   **Lenguajes:** —
-
 
 ## 🚀 Impresion 3D
 
@@ -82,6 +77,10 @@ Creative producer & songwriter | App developer | Cloud engineer
   SDK oficial de Transbank para .NET (C#).  
   **Lenguajes:** C#, PowerShell
 
+- [Quantum-Computing](https://github.com/robrstein/Quantum-Computing)  
+  Documentos y archivos del grupo de investigación QM.  
+  **Lenguajes:** Jupyter Notebook
+
 
 ---
 
@@ -109,6 +108,10 @@ Creative producer & songwriter | App developer | Cloud engineer
 - 📧 Email: roberto.escobar.wall@gmail.com  
 - 🔗 LinkedIn: [linkedin.com/in/robertoescobar](https://linkedin.com/in/robertoescobar)  
 - 📱 Teléfono: +56 9 9862 8688
+
+---
+## 🎵 Spotify
+[Visitar perfil en Spotify](https://open.spotify.com/intl-es/artist/6pxXYSk1spPf6xt1tjU7gX/discography/all)
 
 
 <!--
