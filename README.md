@@ -148,7 +148,7 @@ Creative producer & songwriter | App developer | Cloud engineer
 ---
 
 ## 🛠 Stack Tecnológico
-- **Lenguajes:** Python, C#, SQL/PLSQL, Dart, TypeScript, JavaScript, C/C++, Rust, Java, Kotlin, Swift  
+- **Lenguajes:** Python, C#, SQL/PLSQL 
 - **Frameworks:** FastAPI, .NET, ASP.NET, Flutter  
 - **Herramientas:** Git avanzado, Docker, Oracle, CI/CD, AVD Pixel 8a  
 - **Intereses:** App publishing, seguridad, optimización de emuladores, workflows Git
