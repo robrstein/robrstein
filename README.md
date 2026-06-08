@@ -157,9 +157,7 @@ Creative producer & songwriter | App developer | Cloud engineer
 
 ## 📫 Contacto
 - 📧 Email: roberto.escobar.wall@gmail.com  
-- 🔗 LinkedIn: [linkedin.com/in/robertoescobar](https://linkedin.com/in/robertoescobar)  
-- 📱 Teléfono: +56 9 9862 8688
- 
+- 🐙 [GitHub](https://github.com/robrstein)
 ---
 ---
  
