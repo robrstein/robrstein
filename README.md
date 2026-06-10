@@ -16,6 +16,9 @@ Creative producer & songwriter | App developer | Cloud engineer
 - [pillanTrack](https://github.com/robrstein/pillanTrack)  
   PillanTrack es una app financiera que permite a los usuarios consultar sus portafolios y fondos de inversión de manera segura.
 
+- [wenuRoute](https://github.com/robrstein/wenuRoute)  
+  WenuRoute es una herramienta multiplataforma de análisis de código que actúa como guía visual para desarrolladores, mostrando las rutas de ejecución de un proyecto como un grafo interactivo navegable.
+
 ---
 
 ## 🔒 Proyectos Privados
