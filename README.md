@@ -30,7 +30,7 @@ Creative producer & songwriter | App developer | Cloud engineer
 - **gastos** → Gestión de gastos.  
 - **python-proyInv** → Proyecto de análisis de inversión (Python).  
 - **ffmm-tracker-android** → Tracker Android para fondos mutuos (TypeScript, Kotlin, JS).
-
+- **AlertaPpu** → SaaS de monitoreo de pasivos y cumplimiento regulatorio vehicular en Chile. Incluye extracción automatizada de datos, motor transaccional de alertas vía SMTP e integración con pasarelas de pago locales para el cobro de suscripciones recurrentes (Node.js, Playwright, Oracle DB, Tbk Sdk, MercadoPago Api)
 ---
 
 
@@ -39,7 +39,8 @@ Creative producer & songwriter | App developer | Cloud engineer
 - **Oracle Cloud**  
   - Administración de **Autonomous Database** y **Virtual Machines** en Ubuntu.  
   - Configuración de PL/SQL, seguridad y esquemas estructurados.  
-  - CI/CD y despliegues backend en Python.  
+  - CI/CD y despliegues backend en Python.
+  - Orquestación de tareas programadas (Cron Jobs) distribuidas para procesamiento por lotes.  
 
 - **Cloudflare**  
   - Gestión de DNS, seguridad y optimización de tráfico.  
