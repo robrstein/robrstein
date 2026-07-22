@@ -19,6 +19,12 @@ Creative producer & songwriter | App developer | Cloud engineer
 - [wenuRoute](https://github.com/robrstein/wenuRoute)  
   WenuRoute es una herramienta multiplataforma de análisis de código que actúa como guía visual para desarrolladores, mostrando las rutas de ejecución de un proyecto como un grafo interactivo navegable.
 
+- [dbmlStudio](https://github.com/robrstein/database-dbml-studio)  
+  Editor y visualizador de diagramas de bases de datos en un único archivo HTML autocontenido. Escribe en texto plano (DBML, UML o DFD) a la izquierda y ve el diagrama renderizarse en tiempo real a la derecha — con selección múltiple, layouts automáticos, exportación, múltiples proyectos guardados y soporte táctil completo.
+
+
+
+
 ---
 
 ## 🔒 Proyectos Privados
