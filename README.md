@@ -22,7 +22,9 @@ Creative producer & songwriter | App developer | Cloud engineer
 - [dbmlStudio](https://github.com/robrstein/database-dbml-studio)  
   Editor y visualizador de diagramas de bases de datos en un único archivo HTML autocontenido. Escribe en texto plano (DBML, UML o DFD) a la izquierda y ve el diagrama renderizarse en tiempo real a la derecha — con selección múltiple, layouts automáticos, exportación, múltiples proyectos guardados y soporte táctil completo.
 
-
+- [mmdGanttStudio](https://github.com/robrstein/mmd-gantt-sutdio)  
+  Visor y editor de diagramas de Gantt escritos en sintaxis [Mermaid](https://mermaid.js.org/syntax/gantt.html), pensado para gestionar proyectos con **un gantt general y múltiples subproyectos de detalle**, todo en el navegador sin backend ni build step.
+ 
 
 
 ---
