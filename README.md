@@ -39,6 +39,8 @@ Creative producer & songwriter | App developer | Cloud engineer
 - **python-proyInv** → Proyecto de análisis de inversión (Python).  
 - **ffmm-tracker-android** → Tracker Android para fondos mutuos (TypeScript, Kotlin, JS).
 - **AlertaPpu** → SaaS de monitoreo de pasivos y cumplimiento regulatorio vehicular en Chile. Incluye extracción automatizada de datos, motor transaccional de alertas vía SMTP e integración con pasarelas de pago locales para el cobro de suscripciones recurrentes (Node.js, Playwright, Oracle DB, Tbk Sdk, MercadoPago Api)
+- **Core DTE** → Motor propio de emisión de documentos tributarios electrónicos (DTE) para Chile, expuesto como API REST con backoffice web y sitio público de consulta (C# .NET, PL/SQL, Oracle, React, TypeScript, Nginx, CI/CD).
+- **Database Backup** → Herramienta de respaldo de esquemas Oracle a scripts SQL restaurables, respetando dependencias entre tablas e identidades (Python, Oracle).
 ---
 
 
