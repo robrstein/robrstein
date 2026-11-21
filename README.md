@@ -24,6 +24,10 @@ Creative producer & songwriter | App developer | Cloud engineer
 
 - [mmdGanttStudio](https://github.com/robrstein/mmd-gantt-sutdio)  
   Visor y editor de diagramas de Gantt escritos en sintaxis [Mermaid](https://mermaid.js.org/syntax/gantt.html), pensado para gestionar proyectos con **un gantt general y múltiples subproyectos de detalle**, todo en el navegador sin backend ni build step.
+
+- [PowerBee Backup](https://github.com/robrstein/PowerBee-Backup)  
+  Respaldo lógico de esquemas Oracle Autonomous Database a scripts SQL restaurables (estructura, código y datos), ordenados por dependencias y FK, con lectura consistente en modo solo lectura. Incluye un visor web sin servidor para explorar el respaldo y una consola SQL, además de copia automática en Cloudflare R2 coordinada entre varias VM.  
+  **Tecnologías:** Python, Oracle, PL/SQL, JavaScript, sql.js, Cloudflare R2, systemd
  
 
 
@@ -40,7 +44,6 @@ Creative producer & songwriter | App developer | Cloud engineer
 - **ffmm-tracker-android** → Tracker Android para fondos mutuos (TypeScript, Kotlin, JS).
 - **AlertaPpu** → SaaS de monitoreo de pasivos y cumplimiento regulatorio vehicular en Chile. Incluye extracción automatizada de datos, motor transaccional de alertas vía SMTP e integración con pasarelas de pago locales para el cobro de suscripciones recurrentes (Node.js, Playwright, Oracle DB, Tbk Sdk, MercadoPago Api)
 - **Core DTE** → Motor propio de emisión de documentos tributarios electrónicos (DTE) para Chile, expuesto como API REST con backoffice web y sitio público de consulta (C# .NET, PL/SQL, Oracle, React, TypeScript, Nginx, CI/CD).
-- **Database Backup** → Herramienta de respaldo de esquemas Oracle a scripts SQL restaurables, respetando dependencias entre tablas e identidades (Python, Oracle).
 ---
 
 
