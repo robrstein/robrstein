@@ -76,28 +76,6 @@ Creative producer & songwriter | App developer | Cloud engineer
 
 ## 🚀 Creacion de Teclados
 
-### ⭐ Principal: [tecladoMagnetico](https://github.com/robrstein/tecladoMagnetico)
-
-Teclado dividido **Corne (42 teclas) con switches de efecto Hall** (Gateron KS-20 MX) en lugar de switches mecánicos de contacto. Diseño de hardware completo: PCB en KiCad + layout generado con [ergogen](https://github.com/ergogen/ergogen), con firmware **ZMK** para punto de actuación ajustable y *Rapid Trigger*.
-
-- **Sensado:** un sensor Hall analógico DRV5055 por tecla, montado en la cara inferior de la PCB, justo bajo el imán del stem del switch (lee a través de 1.6 mm de FR4).
-- **Lectura analógica:** 3× multiplexores SN74LV4051A (8:1) por mitad → solo 3 pines SAADC reales del nRF52840 para 21 teclas.
-- **MCU:** nice!nano v2 (nRF52840) en socket, **split 100% inalámbrico por BLE** (sin TRRS), batería LiPo con interruptor.
-- **PCB:** una placa por mano (izquierda/derecha), 4 capas (F.Cu / plano GND / plano VCC / B.Cu), DRC limpio y gerbers listos para fabricar (panelizados izquierda + derecha).
-- **Firmware:** ZMK con módulos de efecto Hall (`zmk-feature-hall-effect`, `zmk-driver-kscan-he`).
-- **Herramientas:** KiCad, ergogen, Python (scripts de post-procesado con `pcbnew`), ZMK.
-
-| Mitad izquierda — cara superior | Mitad izquierda — cara inferior (sensores y multiplexores) |
-|:---:|:---:|
-| ![PCB izquierda, cara superior](docs/teclado-magnetico/pcb_left_top.png) | ![PCB izquierda, cara inferior](docs/teclado-magnetico/pcb_left_bottom.png) |
-
-<p align="center">
-  <img src="docs/teclado-magnetico/pcb_right_top.png" alt="PCB mitad derecha, cara superior" width="70%"><br>
-  <em>Mitad derecha: layout espejado (no se voltea la placa, para mantener el sensor en la cara opuesta al switch).</em>
-</p>
-
-> Renders generados desde los gerbers de fabricación del repositorio.
-
 ### 🛠 Prototipo: Corne mecánico cableado a mano
 
 Primer teclado del proyecto: un **Corne dividido con switches mecánicos**, armado sin PCB, cableando cada tecla a mano. Sirvió para validar el layout, el firmware y la ergonomía antes de diseñar la versión magnética.
@@ -117,6 +95,37 @@ Primer teclado del proyecto: un **Corne dividido con switches mecánicos**, arma
 | | | |
 |:---:|:---:|:---:|
 | <img src="docs/teclado-prototipo/1.jpeg" alt="Prototipo Corne cableado, vista general"> | <img src="docs/teclado-prototipo/2.jpeg" alt="Prototipo Corne, detalle del cableado y tira LED"> | <img src="docs/teclado-prototipo/3.jpeg" alt="Prototipo Corne junto a la mitad con Pro Micro y TRRS"> |
+
+### ⭐ Principal: [tecladoMagnetico](https://github.com/robrstein/tecladoMagnetico)
+
+Teclado dividido **Corne (42 teclas) con switches de efecto Hall** (Gateron KS-20 MX) en lugar de switches mecánicos de contacto. Diseño de hardware completo: PCB en KiCad + layout generado con [ergogen](https://github.com/ergogen/ergogen), con firmware **ZMK** para punto de actuación ajustable y *Rapid Trigger*.
+
+- **Sensado:** un sensor Hall analógico DRV5055 por tecla, montado en la cara inferior de la PCB, justo bajo el imán del stem del switch (lee a través de 1.6 mm de FR4).
+- **Lectura analógica:** 3× multiplexores SN74LV4051A (8:1) por mitad → solo 3 pines SAADC reales del nRF52840 para 21 teclas.
+- **MCU:** nice!nano v2 (nRF52840) en socket, **split 100% inalámbrico por BLE** (sin TRRS), batería LiPo con interruptor.
+- **PCB:** una placa por mano (izquierda/derecha), 4 capas (F.Cu / plano GND / plano VCC / B.Cu), DRC limpio y gerbers listos para fabricar (panelizados izquierda + derecha).
+- **Firmware:** ZMK con módulos de efecto Hall (`zmk-feature-hall-effect`, `zmk-driver-kscan-he`).
+- **Herramientas:** KiCad, ergogen, Python (scripts de post-procesado con `pcbnew`), ZMK.
+
+<p align="center">
+  <img src="docs/teclado-magnetico/pcb_design.jpg" alt="Panel de PCB en el editor de KiCad: mitad izquierda y derecha" width="100%"><br>
+  <em>Diseño en KiCad: panel con ambas mitades (izquierda y derecha) listo para fabricar.</em>
+</p>
+
+| Panel final — cara superior (vista 3D KiCad) | Panel final — cara inferior (sensores y multiplexores) |
+|:---:|:---:|
+| ![Panel PCB, cara superior](docs/teclado-magnetico/pcb_final_top.jpg) | ![Panel PCB, cara inferior](docs/teclado-magnetico/pcb_final_bottom.jpg) |
+
+| Mitad izquierda — cara superior | Mitad izquierda — cara inferior (sensores y multiplexores) |
+|:---:|:---:|
+| ![PCB izquierda, cara superior](docs/teclado-magnetico/pcb_left_top.png) | ![PCB izquierda, cara inferior](docs/teclado-magnetico/pcb_left_bottom.png) |
+
+<p align="center">
+  <img src="docs/teclado-magnetico/pcb_right_top.png" alt="PCB mitad derecha, cara superior" width="70%"><br>
+  <em>Mitad derecha: layout espejado (no se voltea la placa, para mantener el sensor en la cara opuesta al switch).</em>
+</p>
+
+> Las vistas por mitad son renders generados desde los gerbers de fabricación del repositorio.
 
 ### Otros repositorios (forks y relacionados)
 
