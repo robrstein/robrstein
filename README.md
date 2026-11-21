@@ -36,13 +36,12 @@ Creative producer & songwriter | App developer | Cloud engineer
 ## 🔒 Proyectos Privados
 
 - **IonikSuite** → Suite de gestión (Python, TypeScript, HTML, CSS, JavaScript, PLSQL, Docker).  
+-- **importadora** → Sistema de costos y cálculo de importación (Python, TypeScript, HTML, CSS, JS).  
 - **inversiones** → Plataforma de visualización de portafolios (Python, Dart, HTML, CSS, JS, Kotlin, Swift).   
+-- **python-proyInv** → Proyecto de análisis de inversión (Python).  
+-- **ffmm-tracker-android** → Tracker Android para fondos mutuos (TypeScript, Kotlin, JS).
 - **llappControl** → **AntuDrive** - App de control de luces LED para autos (Python, Dart, C++, Swift, Kotlin).   
-- **importadora** → Sistema de costos y cálculo de importación (Python, TypeScript, HTML, CSS, JS).  
-- **gastos** → Gestión de gastos.  
-- **python-proyInv** → Proyecto de análisis de inversión (Python).  
-- **ffmm-tracker-android** → Tracker Android para fondos mutuos (TypeScript, Kotlin, JS).
-- **AlertaPpu** → SaaS de monitoreo de pasivos y cumplimiento regulatorio vehicular en Chile. Incluye extracción automatizada de datos, motor transaccional de alertas vía SMTP e integración con pasarelas de pago locales para el cobro de suscripciones recurrentes (Node.js, Playwright, Oracle DB, Tbk Sdk, MercadoPago Api)
+- **Alerta** → SaaS de monitoreo de pasivos y cumplimiento regulatorio vehicular en Chile. Incluye extracción automatizada de datos, motor transaccional de alertas vía SMTP e integración con pasarelas de pago locales para el cobro de suscripciones recurrentes (Node.js, Playwright, Oracle DB, Tbk Sdk, MercadoPago Api)
 - **Core DTE** → Motor propio de emisión de documentos tributarios electrónicos (DTE) para Chile, expuesto como API REST con backoffice web y sitio público de consulta (C# .NET, PL/SQL, Oracle, React, TypeScript, Nginx, CI/CD).
 ---
 
@@ -76,6 +75,30 @@ Creative producer & songwriter | App developer | Cloud engineer
   <summary>🚀 Creación de Teclados (repositorios fork)</summary>
 
 ## 🚀 Creacion de Teclados
+
+### ⭐ Principal: [tecladoMagnetico](https://github.com/robrstein/tecladoMagnetico)
+
+Teclado dividido **Corne (42 teclas) con switches de efecto Hall** (Gateron KS-20 MX) en lugar de switches mecánicos de contacto. Diseño de hardware completo: PCB en KiCad + layout generado con [ergogen](https://github.com/ergogen/ergogen), con firmware **ZMK** para punto de actuación ajustable y *Rapid Trigger*.
+
+- **Sensado:** un sensor Hall analógico DRV5055 por tecla, montado en la cara inferior de la PCB, justo bajo el imán del stem del switch (lee a través de 1.6 mm de FR4).
+- **Lectura analógica:** 3× multiplexores SN74LV4051A (8:1) por mitad → solo 3 pines SAADC reales del nRF52840 para 21 teclas.
+- **MCU:** nice!nano v2 (nRF52840) en socket, **split 100% inalámbrico por BLE** (sin TRRS), batería LiPo con interruptor.
+- **PCB:** una placa por mano (izquierda/derecha), 4 capas (F.Cu / plano GND / plano VCC / B.Cu), DRC limpio y gerbers listos para fabricar (panelizados izquierda + derecha).
+- **Firmware:** ZMK con módulos de efecto Hall (`zmk-feature-hall-effect`, `zmk-driver-kscan-he`).
+- **Herramientas:** KiCad, ergogen, Python (scripts de post-procesado con `pcbnew`), ZMK.
+
+| Mitad izquierda — cara superior | Mitad izquierda — cara inferior (sensores y multiplexores) |
+|:---:|:---:|
+| ![PCB izquierda, cara superior](docs/teclado-magnetico/pcb_left_top.png) | ![PCB izquierda, cara inferior](docs/teclado-magnetico/pcb_left_bottom.png) |
+
+<p align="center">
+  <img src="docs/teclado-magnetico/pcb_right_top.png" alt="PCB mitad derecha, cara superior" width="70%"><br>
+  <em>Mitad derecha: layout espejado (no se voltea la placa, para mantener el sensor en la cara opuesta al switch).</em>
+</p>
+
+> Renders generados desde los gerbers de fabricación del repositorio.
+
+### Otros repositorios (forks y relacionados)
 
 - [vial-qmk](https://github.com/robrstein/vial-qmk)  
   Fork de QMK con características específicas de Vial.  
