@@ -98,6 +98,26 @@ Teclado dividido **Corne (42 teclas) con switches de efecto Hall** (Gateron KS-2
 
 > Renders generados desde los gerbers de fabricación del repositorio.
 
+### 🛠 Prototipo: Corne mecánico cableado a mano
+
+Primer teclado del proyecto: un **Corne dividido con switches mecánicos**, armado sin PCB, cableando cada tecla a mano. Sirvió para validar el layout, el firmware y la ergonomía antes de diseñar la versión magnética.
+
+- **Carcasa y plate:** impresos en 3D (full 3D), con tapa inferior y separadores de nailon.
+- **Switches y keycaps:** switches mecánicos con keycaps impresos en 3D.
+- **Cableado:** matriz *point-to-point* con diodos soldados directo a cada switch y cables de colores hacia el MCU.
+- **MCU:** Pro Micro (ATmega32u4) por mitad, con conector TRRS para el split cableado.
+- **Firmware:** QMK, flasheado directamente al Pro Micro.
+- **Iluminación:** tiras LED direccionables de 3 pines (+5V / DIN / GND).
+
+<p align="center">
+  <img src="docs/teclado-prototipo/4.jpeg" alt="Prototipo Corne visto desde arriba con keycaps impresos en 3D" width="80%"><br>
+  <em>Vista superior: keycaps impresos en 3D sobre el plate.</em>
+</p>
+
+| | | |
+|:---:|:---:|:---:|
+| <img src="docs/teclado-prototipo/1.jpeg" alt="Prototipo Corne cableado, vista general"> | <img src="docs/teclado-prototipo/2.jpeg" alt="Prototipo Corne, detalle del cableado y tira LED"> | <img src="docs/teclado-prototipo/3.jpeg" alt="Prototipo Corne junto a la mitad con Pro Micro y TRRS"> |
+
 ### Otros repositorios (forks y relacionados)
 
 - [vial-qmk](https://github.com/robrstein/vial-qmk)  
