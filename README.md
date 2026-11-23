@@ -35,7 +35,7 @@ Creative producer & songwriter | App developer | Cloud engineer
 
 ## 🔒 Proyectos Privados
 
-- **IonikSuite** → Suite de gestión (Python, TypeScript, HTML, CSS, JavaScript, PLSQL, Docker).  
+- **IonikSuite** → Suite de gestión (Python, TypeScript, HTML, CSS, JavaScript, PLSQL, Docker). Imágenes y videos en **Cloudflare R2** (API S3) servidos por CDN propio, con subida directa de videos por URLs prefirmadas.  
 -- **importadora** → Sistema de costos y cálculo de importación (Python, TypeScript, HTML, CSS, JS).  
 - **inversiones** → Plataforma de visualización de portafolios (Python, Dart, HTML, CSS, JS, Kotlin, Swift).   
 -- **python-proyInv** → Proyecto de análisis de inversión (Python).  
@@ -57,6 +57,7 @@ Creative producer & songwriter | App developer | Cloud engineer
 - **Cloudflare**  
   - Gestión de DNS, seguridad y optimización de tráfico.  
   - Integración con dominios y servicios en producción.  
+  - **R2 (almacenamiento de objetos, API S3):** bucket privado expuesto solo por un dominio propio (`cdn.ionik.cl`) con caché y reglas WAF; archivos inmutables con hash; capa de almacenamiento intercambiable `local`/`r2` (boto3); subida directa de videos con URLs prefirmadas (PUT), validación por contenido y limpieza por ciclo de vida; migración sin reescribir datos y con rollback por parámetro. También en el respaldo automático de PowerBee Backup.  
 
 - **ionik.cl**  
   - **Ecommerce multitenant**.  
