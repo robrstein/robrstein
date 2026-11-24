@@ -217,6 +217,16 @@ Teclado dividido **Corne (42 teclas) con switches de efecto Hall** (Gateron KS-2
 
 ---
 
+## 📊 Actividad Tecnológica (1999–2026)
+
+Cada celda es un año; mientras más meses de uso de la tecnología (sumando sistemas y proyectos simultáneos), más intenso el color.
+
+<p align="center">
+  <img src="docs/actividad-tecnologica.svg" alt="Mapa de actividad tecnológica 1999-2026: tecnologías hacia abajo, años hacia la derecha" width="100%">
+</p>
+
+---
+
 ## 🛠 Stack Tecnológico
 - **Lenguajes:** Python, C#, SQL/PLSQL 
 - **Frameworks:** FastAPI, .NET, ASP.NET, Flutter  
