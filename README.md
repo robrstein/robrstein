@@ -57,7 +57,7 @@ Creative producer & songwriter | App developer | Cloud engineer
 -- **ffmm-tracker-android** → Tracker Android para fondos mutuos (TypeScript, Kotlin, JS).
 - **llappControl** → **AntuDrive** - App de control de luces LED para autos (Python, Dart, C++, Swift, Kotlin).   
 - **Alerta** → SaaS de monitoreo de pasivos y cumplimiento regulatorio vehicular en Chile. Incluye extracción automatizada de datos, motor transaccional de alertas vía SMTP e integración con pasarelas de pago locales para el cobro de suscripciones recurrentes (Node.js, Playwright, Oracle DB, Tbk Sdk, MercadoPago Api)
-- **Core DTE** → Motor propio de emisión de documentos tributarios electrónicos (DTE) para Chile, expuesto como API REST con backoffice web y sitio público de consulta (C# .NET, PL/SQL, Oracle, React, TypeScript, Nginx, CI/CD).
+- **Core DTE** → Motor propio de emisión de documentos tributarios electrónicos (DTE) para Chile, expuesto como API REST con backoffice web y sitio público de consulta (C# .NET, PL/SQL, Oracle, React, TypeScript, Nginx, CI/CD). Para desarrolladores externos suma un simulador público del SII ([Siimulator](https://github.com/robrstein/siimulator)) en una instancia aislada y con límite de CPU, un portal al estilo «developers» ([dte-developers](https://github.com/robrstein/dte-developers)) con sandbox público, claves y kits de prueba por caso, guía generada desde una fuente única en Markdown y `llms.txt`, y un servidor MCP ([dte-mcp](https://github.com/robrstein/dte-mcp)) que deja a asistentes de IA validar y emitir en sandbox o probar un core propio contra el simulador, restringido al ambiente de pruebas y sin firmar nunca por el usuario.
 ---
 
 
