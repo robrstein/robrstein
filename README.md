@@ -28,6 +28,21 @@ Creative producer & songwriter | App developer | Cloud engineer
 - [PowerBee Backup](https://github.com/robrstein/PowerBee-Backup)  
   Respaldo lógico de esquemas Oracle Autonomous Database a scripts SQL restaurables (estructura, código y datos), ordenados por dependencias y FK, con lectura consistente en modo solo lectura. Incluye un visor web sin servidor para explorar el respaldo y una consola SQL, además de copia automática en Cloudflare R2 coordinada entre varias VM.  
   **Tecnologías:** Python, Oracle, PL/SQL, JavaScript, sql.js, Cloudflare R2, systemd
+
+- [Siimulator](https://github.com/robrstein/siimulator)  
+  El SII de Chile simulado para probar software propio de facturación electrónica antes de tener certificado digital o folios reales: mismas rutas, formatos y estados que el SII (semilla y token, envío SOAP/upload y API REST de boletas, validación de esquema, firma y timbre), con RUT de prueba de comportamiento conocido y kits con certificado y CAF.  
+  **Tecnologías:** C# .NET, ASP.NET Core, XMLDSig, SOAP, REST, Nginx, systemd  
+  🌐 [siimulator.powerbeetech.cl](https://siimulator.powerbeetech.cl)
+
+- [dte-developers](https://github.com/robrstein/dte-developers)  
+  Sitio para desarrolladores de la API de PowerBee DTE: guía de integración con ejemplos en Node.js, Python y C#, referencia generada del contrato OpenAPI, casos de prueba con claves públicas de sandbox, protocolo del SII y `llms.txt` para asistentes de IA.  
+  **Tecnologías:** TypeScript, Vite, OpenAPI, Playwright, axe  
+  🌐 [developers.powerbeetech.cl](https://developers.powerbeetech.cl)
+
+- [dte-mcp](https://github.com/robrstein/dte-mcp)  
+  Servidor MCP (Model Context Protocol) para que asistentes de IA como Claude Code, Cursor o VS Code se integren con la API de PowerBee DTE en sandbox o prueben un core propio contra el Siimulator: documentación, ejemplos, validación y emisión de prueba, y explicación de errores y estados del SII.  
+  **Tecnologías:** C# .NET, ASP.NET Core, MCP C# SDK (Streamable HTTP), Nginx, systemd  
+  🌐 `https://mcp.powerbeetech.cl/` ([cómo conectarlo](https://developers.powerbeetech.cl/integracion-ia/))
  
 
 
